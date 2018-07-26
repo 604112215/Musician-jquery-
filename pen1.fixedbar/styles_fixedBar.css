@@ -1,0 +1,376 @@
+/*This is style sheet for fixed bar*/
+body{
+	width:100%;
+	margin:0;
+	padding:0;
+	/*box-sizing: border-box;*/
+	background-color:#3C3C3C;
+}
+
+/*-----sidebar-------------------------------------------------------------------------*/
+.leftFix{
+    overflow-y:auto;
+	width:194.64;
+	height: 100%;
+	background-color:#000000;
+	/*position: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;*/
+	position: fixed;
+	 left: 0; 
+	 top:0;
+	color:white;
+}
+
+
+
+img.leftFix{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+}
+
+#logo{
+	margin-top: 20;
+	margin-left: 35;
+	margin-bottom: 60;
+	font-size: 44;
+}
+
+.avanta{
+	margin-left: 35;
+	position: relative;
+	padding-bottom:40;
+}
+
+.avanta div{
+	position: absolute;
+	top:10;
+	left: 50;
+
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#1DDBB7;
+	/*font-size: 105%*/
+	/*font-weight: 900;*/
+}
+
+h3{
+	margin-left:35;
+}
+
+nav li{
+	/*height:10;*/
+	display: block;
+	text-decoration: none;
+	margin-left: 35;
+	padding-right: 40;
+	font-size:14;
+	margin-bottom: 30;
+	flex-flow: auto;
+
+	
+	/*margin: 2em;*/
+}
+
+
+ul{
+	text-align: left;
+	padding:0;
+}
+
+div.play{
+	position: relative;
+	margin-top: 50;
+	background-color: transparent;
+}
+
+
+#play{
+  margin-left: 20;
+  margin-right: 20;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #37524A;
+
+/*  padding-left: 20px;
+   padding-right: 20px;*/
+}
+.play div{
+
+	padding-left: 40;
+	font-size: 14;
+}
+
+#palybar{
+	
+	width: 160;
+	padding:15;
+}
+
+/*------search bar------------------------------------------------------------------------*/
+
+div.headerSearch{
+	/*width: 100%;*/
+	background-color: black;
+}
+
+input[type=text] {
+    width: 20px;
+    margin-left: 80%;
+    /*margin-right: 20%;*/
+    margin-top:20;
+    margin-bottom: 20;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color:#FFFFFF;
+    background-image: url('pictures/zoom-2.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.2s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 15%;
+}
+
+/*------Intro------------------------------------------------------------------------*/
+
+.INTRO{
+	margin-left: 30%;
+	margin-right: 20%;
+	margin-top: 50;
+	width:50%; 
+	max-width:900;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/*align-items: baseline;*/
+}
+
+
+.INTRO img{
+	width:130;
+	height: 130;
+	margin-right: 20;
+}
+
+/*.IntroReal{
+	background-color: blue;
+/*	max-width:600;*/
+/*}*/
+
+.IntroReal p{
+	/*padding-left: 20;*/
+	width:90%;
+	max-width:600;
+	min-width:200;
+	margin-right:20; 
+}
+p#title{
+	/*max-width: 600;*/
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	
+	color: white;
+	font-size: 16;
+	font-weight: 800;
+}
+
+
+p#intro{
+	/*max-width: 780;*/
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	color: white;
+	font-size: 13;
+}
+
+/*------Line------------------------------------------------------------------------*/
+.line {
+	max-width: 45%;
+	border-color:#1BCDAC;
+	margin: 0 auto;
+}
+/*------Ablum Bar Flex Box------------------------------------------------------------------------*/
+.AlbumBar{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 40%;
+	margin: 20 auto;
+	align-items:baseline;
+}
+
+.AlbumBar p{
+	color: white;
+}
+
+#seemore{
+   font-size: 12;
+}
+
+/*------Ablum1 Flex Box------------------------------------------------------------------------*/
+
+#colum1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	max-width: 40%;
+	margin: 20 auto;
+}
+
+#colum1 img{
+	width:100;
+	height:100;
+	border: 0px solid #1DDBB7;
+	border-radius: 110px;
+	margin: 20 20 ;
+
+}
+
+/*img:hover{
+	width:130;
+}*/
+
+
+/*------LIST1 Flex Box------------------------------------------------------------------------*/
+#LIST1{
+	color: white;
+	max-width: 40%;
+
+	margin:20 auto;
+	margin-bottom: 0;
+
+
+}
+
+.LIST1 {
+	background-color: #4D4847;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	max-width: 45%;
+	margin: auto;
+}
+
+.LIST1 li{
+	position: : relative;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 30;
+	margin-left: 30;
+}
+
+div .icon{
+	position: absolute;
+	display:inline;
+	left:60%;
+	/*margin-left:20%;*/
+
+}
+/*------FOOTER------------------------------------------------------------------------*/
+footer{
+	margin-top: 100;
+	margin-bottom: 0;
+	background-color: #141414;
+	text-align:center;
+	/*height: 150;*/
+}
+
+footer img{
+	height: 20;
+	width: 20;
+	margin-bottom: 50;
+}
+.Follow{
+	padding-top: 20;
+	color:white;
+	font-size: 10;
+
+}
+
+
+/*------breakpoint--------------------------------------------------*/
+
+@media only screen and (max-width: 654px) {
+/*------sidebar ivisuble--------------------------------------------------*/
+	.leftFix{
+		visibility: hidden;
+	}
+
+	#logo{
+		position: -webkit-sticky; /* Safari */
+	    position: sticky;
+	    top: 0;
+
+		visibility: visible;
+		background-color: black;
+		margin: 0;
+		padding-left:35;
+		z-index: 10;
+
+	}
+	.headerSearch{
+		position: -webkit-sticky; /* Safari */
+	    position: sticky;
+	    top: 0;
+	}
+
+	#colum1{
+		min-width: 300;
+	}
+
+	.line{
+		min-width: 300;
+
+	}
+
+	div.AlbumBar{
+		min-width: 300;
+
+	}
+
+	#LIST1{
+		min-width: 300;
+
+	}
+
+    .icon{
+    	visibility: hidden;
+
+    }
+
+    div .LIST1{
+    	min-width: 300;
+    	background-color: transparent;
+    }
+    .LIST1{
+    	min-width: 320;
+    	margin-left: 0;
+    	margin-right: 0;
+
+    }
+
+
+  /* .LIST1 li{
+    	min-width: 300;
+    	margin-left: 0;
+    }
+*/
